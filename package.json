@@ -1,0 +1,24 @@
+{
+  "name": "svg2jsx",
+  "version": "1.0.0",
+  "description": "converts svg files in a given directory into jsx files",
+  "bin": {
+    "svg2jsx": "./bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Joshua Ledbetter",
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/core": "^5.4.0",
+    "@svgr/plugin-jsx": "^5.4.0",
+    "@svgr/plugin-prettier": "^5.4.0",
+    "@svgr/plugin-svgo": "^5.4.0",
+    "dom-parser": "^0.1.6",
+    "react-html-parser": "^2.0.2",
+    "yargs": "^15.3.1"
+  }
+}
